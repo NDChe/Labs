@@ -1,0 +1,13 @@
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Lab№3_1\Lab№3_1\bin\Debug\netcoreapp3.1\Lab№3_1.exe
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Lab№3_1\Lab№3_1\bin\Debug\netcoreapp3.1\Lab№3_1.deps.json
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Lab№3_1\Lab№3_1\bin\Debug\netcoreapp3.1\Lab№3_1.runtimeconfig.json
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Lab№3_1\Lab№3_1\bin\Debug\netcoreapp3.1\Lab№3_1.runtimeconfig.dev.json
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Lab№3_1\Lab№3_1\bin\Debug\netcoreapp3.1\Lab№3_1.dll
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Lab№3_1\Lab№3_1\bin\Debug\netcoreapp3.1\Lab№3_1.pdb
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Lab№3_1\Lab№3_1\obj\Debug\netcoreapp3.1\Lab№3_1.csproj.AssemblyReference.cache
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Lab№3_1\Lab№3_1\obj\Debug\netcoreapp3.1\Lab№3_1.AssemblyInfoInputs.cache
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Lab№3_1\Lab№3_1\obj\Debug\netcoreapp3.1\Lab№3_1.AssemblyInfo.cs
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Lab№3_1\Lab№3_1\obj\Debug\netcoreapp3.1\Lab№3_1.csproj.CoreCompileInputs.cache
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Lab№3_1\Lab№3_1\obj\Debug\netcoreapp3.1\Lab№3_1.dll
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Lab№3_1\Lab№3_1\obj\Debug\netcoreapp3.1\Lab№3_1.pdb
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Lab№3_1\Lab№3_1\obj\Debug\netcoreapp3.1\Lab№3_1.genruntimeconfig.cache
