@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\N\\Desktop\\ЗОС_Лабы_7трим\\1-67\\Cypher\\Cypher.csproj",
+      "projectUniqueName": "C:\\Users\\N\\Desktop\\ЗОС_Лабы_7трим\\Лабы\\Lab1-67\\Cypher\\Cypher.csproj",
       "projectName": "Cypher",
-      "projectPath": "C:\\Users\\N\\Desktop\\ЗОС_Лабы_7трим\\1-67\\Cypher\\Cypher.csproj",
+      "projectPath": "C:\\Users\\N\\Desktop\\ЗОС_Лабы_7трим\\Лабы\\Lab1-67\\Cypher\\Cypher.csproj",
       "packagesPath": "C:\\Users\\N\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\N\\Desktop\\ЗОС_Лабы_7трим\\1-67\\Cypher\\obj\\",
+      "outputPath": "C:\\Users\\N\\Desktop\\ЗОС_Лабы_7трим\\Лабы\\Lab1-67\\Cypher\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
