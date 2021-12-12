@@ -38,7 +38,7 @@ namespace Knapsack
                 tovars.Add(tovar);
             }
 
-            Console.WriteLine(KnapSack(tovars, this.capacity));
+            Console.Write(KnapSack(tovars, this.capacity));
         }
 
         static void Swap<T>(ref T arg1, ref T arg2) where T : struct

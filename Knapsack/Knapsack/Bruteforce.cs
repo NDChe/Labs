@@ -21,11 +21,11 @@ namespace Knapsack
 			this.itemscount = itemsCount;
         }
 
-		public void Start(int capacity, int[] weight, int[] value, int itemsCount) //Это алгоритм
+		public void Start() //Это алгоритм
 		{
-			int[,] K = new int[itemsCount + 1, capacity + 1];
+			int[,] K = new int[itemscount + 1, capacity + 1];
 
-			for (int i = 0; i <= itemsCount; ++i)
+			for (int i = 0; i <= itemscount; ++i)
 			{
 				for (int w = 0; w <= capacity; ++w)
 				{
@@ -38,7 +38,7 @@ namespace Knapsack
 				}
 			}
 
-			Console.WriteLine(K[itemsCount, capacity]);
+			Console.Write(K[itemscount, capacity]);
 		}
 	}
 }

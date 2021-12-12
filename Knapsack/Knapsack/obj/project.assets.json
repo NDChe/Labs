@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\N\\source\\repos\\Knapsack\\Knapsack\\Knapsack.csproj",
+      "projectUniqueName": "C:\\Users\\N\\Desktop\\ЗОС_Лабы_7трим\\Лабы\\Knapsack\\Knapsack\\Knapsack.csproj",
       "projectName": "Knapsack",
-      "projectPath": "C:\\Users\\N\\source\\repos\\Knapsack\\Knapsack\\Knapsack.csproj",
+      "projectPath": "C:\\Users\\N\\Desktop\\ЗОС_Лабы_7трим\\Лабы\\Knapsack\\Knapsack\\Knapsack.csproj",
       "packagesPath": "C:\\Users\\N\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\N\\source\\repos\\Knapsack\\Knapsack\\obj\\",
+      "outputPath": "C:\\Users\\N\\Desktop\\ЗОС_Лабы_7трим\\Лабы\\Knapsack\\Knapsack\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

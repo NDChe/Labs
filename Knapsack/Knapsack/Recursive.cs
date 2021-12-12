@@ -34,8 +34,7 @@ namespace Knapsack
 
 
             if (wt[n - 1] > W)
-                return KnapSack(W, wt,
-                                val, n - 1);
+                return KnapSack(W, wt, val, n - 1);
 
             else
                 return max(val[n - 1] + KnapSack(W - wt[n - 1], wt, val, n - 1), KnapSack(W, wt, val, n - 1));
@@ -44,7 +43,7 @@ namespace Knapsack
 
         public void Start()
         {
-            Console.WriteLine(KnapSack(this.capacity, this.weight, this.value, this.itemscount));
+            Console.Write(KnapSack(this.capacity, this.weight, this.value, this.itemscount));
         }
     }
 }

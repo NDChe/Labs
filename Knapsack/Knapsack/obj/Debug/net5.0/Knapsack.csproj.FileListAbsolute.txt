@@ -1,0 +1,16 @@
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Лабы\Knapsack\Knapsack\bin\Debug\net5.0\Knapsack.exe
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Лабы\Knapsack\Knapsack\bin\Debug\net5.0\Knapsack.deps.json
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Лабы\Knapsack\Knapsack\bin\Debug\net5.0\Knapsack.runtimeconfig.json
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Лабы\Knapsack\Knapsack\bin\Debug\net5.0\Knapsack.runtimeconfig.dev.json
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Лабы\Knapsack\Knapsack\bin\Debug\net5.0\Knapsack.dll
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Лабы\Knapsack\Knapsack\bin\Debug\net5.0\ref\Knapsack.dll
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Лабы\Knapsack\Knapsack\bin\Debug\net5.0\Knapsack.pdb
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Лабы\Knapsack\Knapsack\obj\Debug\net5.0\Knapsack.csproj.AssemblyReference.cache
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Лабы\Knapsack\Knapsack\obj\Debug\net5.0\Knapsack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Лабы\Knapsack\Knapsack\obj\Debug\net5.0\Knapsack.AssemblyInfoInputs.cache
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Лабы\Knapsack\Knapsack\obj\Debug\net5.0\Knapsack.AssemblyInfo.cs
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Лабы\Knapsack\Knapsack\obj\Debug\net5.0\Knapsack.csproj.CoreCompileInputs.cache
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Лабы\Knapsack\Knapsack\obj\Debug\net5.0\Knapsack.dll
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Лабы\Knapsack\Knapsack\obj\Debug\net5.0\ref\Knapsack.dll
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Лабы\Knapsack\Knapsack\obj\Debug\net5.0\Knapsack.pdb
+C:\Users\N\Desktop\ЗОС_Лабы_7трим\Лабы\Knapsack\Knapsack\obj\Debug\net5.0\Knapsack.genruntimeconfig.cache
