@@ -23,10 +23,10 @@ namespace Knapsack
                         {
                             Console.WriteLine("Введите вес предмета #" + i);
                             weight[i] = Convert.ToInt32(Console.ReadLine());
-                            Console.WriteLine("Введите вес предмета #" + i);
+                            Console.WriteLine("Введите стоимость предмета #" + i);
                             value[i] = Convert.ToInt32(Console.ReadLine());
                         }
-                        Console.WriteLine("Выберите метод: (0) - Рекурсивный перебор; (1) - Итерационный перебор; (2) - Жадный алгоритм");
+                        Console.WriteLine("Выберите метод: (0) - Рекурсивный перебор; (1) - Жадный алгоритм; (2) - Итерационный перебор ");
                         choice = Convert.ToInt32(Console.ReadLine());
                         switch (choice)
                         {
@@ -75,7 +75,7 @@ namespace Knapsack
                             weight[i] = random.Next(3, 100); 
                             value[i] = random.Next(3, 100);
                         }
-                        Console.WriteLine("Выберите метод: (0) - Рекурсивный перебор; (1) - Итерационный перебор; (2) - Жадный алгоритм");
+                        Console.WriteLine("Выберите метод: (0) - Рекурсивный перебор; (1) - Жадный алгоритм; (2) - Итерационный перебор ");
                         choice = Convert.ToInt32(Console.ReadLine());
 
                         Console.WriteLine("Вместимость: " + m + "\nКоличество: " + n);

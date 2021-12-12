@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "809f0650-45c2-4940-b3df-f7f80da23a6c": {
+      "ProjectGuid": "809f0650-45c2-4940-b3df-f7f80da23a6c",
+      "DisplayName": "Knapsack",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
