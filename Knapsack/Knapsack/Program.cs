@@ -34,30 +34,33 @@ namespace Knapsack
                                 {
                                     Recursive recursive = new Recursive(m, weight, value, n);
                                     Stopwatch stopwatch = Stopwatch.StartNew();
+                                    Console.Write("Результат: ");
                                     recursive.Start();
                                     stopwatch.Stop();
                                     long time = stopwatch.ElapsedTicks;
-                                    Console.WriteLine("Прошло времени: " + time / 10000);
+                                    Console.WriteLine("\nПрошло времени: " + time / 10000 + "ms");
                                     break;
                                 }
                             case 1:
                                 {
                                     Greedy greedy = new Greedy(m, weight, value, n);
                                     Stopwatch stopwatch = Stopwatch.StartNew();
+                                    Console.Write("Результат: ");
                                     greedy.Start();
                                     stopwatch.Stop();
                                     long time = stopwatch.ElapsedTicks;
-                                    Console.WriteLine("Прошло времени: " + time / 10000);
+                                    Console.WriteLine("\nПрошло времени: " + time / 10000 + "ms");
                                     break;
                                 }
                             case 2:
                                 {
                                     Bruteforce bruteforce = new Bruteforce(m, weight, value, n);
                                     Stopwatch stopwatch = Stopwatch.StartNew();
+                                    Console.Write("Результат: ");
                                     bruteforce.Start();
                                     stopwatch.Stop();
                                     long time = stopwatch.ElapsedTicks;
-                                    Console.WriteLine("Прошло времени: " + time / 10000);
+                                    Console.WriteLine("\nПрошло времени: " + time / 10000 + "ms");
                                     break;
                                 }
                         }
