@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Knapsack
 {
-    class Bruteforce
+    class Dynamic
     {
 		int capacity;
 		int[] weight;
 		int[] value;
 		int itemscount;
 
-		public Bruteforce(int capacity, int[] weight, int[] value, int itemsCount)
+		public Dynamic(int capacity, int[] weight, int[] value, int itemsCount)
         {
 			this.capacity = capacity;
 			this.weight = weight;

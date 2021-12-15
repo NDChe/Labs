@@ -54,7 +54,7 @@ namespace Knapsack
                                 }
                             case 2:
                                 {
-                                    Bruteforce bruteforce = new Bruteforce(m, weight, value, n);
+                                    Dynamic bruteforce = new Dynamic(m, weight, value, n);
                                     Stopwatch stopwatch = Stopwatch.StartNew();
                                     Console.Write("Результат: ");
                                     bruteforce.Start();
@@ -110,7 +110,7 @@ namespace Knapsack
                                 }
                             case 2:
                                 {
-                                    Bruteforce bruteforce = new Bruteforce(m, weight, value, n);
+                                    Dynamic bruteforce = new Dynamic(m, weight, value, n);
                                     Stopwatch stopwatch = Stopwatch.StartNew();
                                     Console.Write("Результат: ");
                                     bruteforce.Start();
