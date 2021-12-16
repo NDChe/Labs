@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Knapsack
 {
-    class Tovar
+    class Predmet
     {
         public int first;
         public int second;
@@ -30,11 +30,11 @@ namespace Knapsack
 
         public void Start()
         {
-            List<Tovar> tovars = new List<Tovar>();
+            List<Predmet> tovars = new List<Predmet>();
 
             for(int i = 0; i < this.weight.Length; i++)
             {
-                Tovar tovar = new Tovar { first = this.weight[i], second = this.value[i] };
+                Predmet tovar = new Predmet { first = this.weight[i], second = this.value[i] };
                 tovars.Add(tovar);
             }
 
@@ -48,7 +48,7 @@ namespace Knapsack
             arg2 = temp;
         }
 
-        static double KnapSack(List<Tovar> vec, int W)
+        static double KnapSack(List<Predmet> vec, int W)
         {
             List<double> chena = new List<double>();
             double c = 0, k;

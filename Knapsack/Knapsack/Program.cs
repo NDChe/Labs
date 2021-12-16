@@ -13,7 +13,7 @@ namespace Knapsack
             {
                 case 0:
                     {
-                        Console.WriteLine("Введите кол-во предметов в рюкзаке (n): ");
+                        Console.WriteLine("Введите кол-во предметов (n): ");
                         int n = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("Введите вместимость рюкзака (m): ");
                         int m = Convert.ToInt32(Console.ReadLine());
@@ -26,16 +26,16 @@ namespace Knapsack
                             Console.WriteLine("Введите стоимость предмета #" + i);
                             value[i] = Convert.ToInt32(Console.ReadLine());
                         }
-                        Console.WriteLine("Выберите метод: (0) - Рекурсивный перебор; (1) - Жадный алгоритм; (2) - Итерационный перебор ");
+                        Console.WriteLine("Выберите метод: (0) - Перебор; (1) - Жадный алгоритм; (2) - Динамический алгоритм");
                         choice = Convert.ToInt32(Console.ReadLine());
                         switch (choice)
                         {
                             case 0:
                                 {
-                                    Recursive recursive = new Recursive(m, weight, value, n);
+                                    Bruteforce func = new Bruteforce(m, weight, value, n);
                                     Stopwatch stopwatch = Stopwatch.StartNew();
                                     Console.Write("Результат: ");
-                                    recursive.Start();
+                                    func.Start();
                                     stopwatch.Stop();
                                     long time = stopwatch.ElapsedTicks;
                                     Console.WriteLine("\nПрошло времени: " + time / 10000 + "ms");
@@ -43,10 +43,10 @@ namespace Knapsack
                                 }
                             case 1:
                                 {
-                                    Greedy greedy = new Greedy(m, weight, value, n);
+                                    Greedy func = new Greedy(m, weight, value, n);
                                     Stopwatch stopwatch = Stopwatch.StartNew();
                                     Console.Write("Результат: ");
-                                    greedy.Start();
+                                    func.Start();
                                     stopwatch.Stop();
                                     long time = stopwatch.ElapsedTicks;
                                     Console.WriteLine("\nПрошло времени: " + time / 10000 + "ms");
@@ -54,10 +54,10 @@ namespace Knapsack
                                 }
                             case 2:
                                 {
-                                    Dynamic bruteforce = new Dynamic(m, weight, value, n);
+                                    Dynamic func = new Dynamic(m, weight, value, n);
                                     Stopwatch stopwatch = Stopwatch.StartNew();
                                     Console.Write("Результат: ");
-                                    bruteforce.Start();
+                                    func.Start();
                                     stopwatch.Stop();
                                     long time = stopwatch.ElapsedTicks;
                                     Console.WriteLine("\nПрошло времени: " + time / 10000 + "ms");
@@ -78,7 +78,7 @@ namespace Knapsack
                             weight[i] = random.Next(3, 100); 
                             value[i] = random.Next(3, 100);
                         }
-                        Console.WriteLine("Выберите метод: (0) - Рекурсивный перебор; (1) - Жадный алгоритм; (2) - Итерационный перебор ");
+                        Console.WriteLine("Выберите метод: (0) - Перебор; (1) - Жадный алгоритм; (2) - Динамический алгоритм");
                         choice = Convert.ToInt32(Console.ReadLine());
 
                         Console.WriteLine("Вместимость: " + m + "\nКоличество: " + n);
@@ -88,10 +88,10 @@ namespace Knapsack
                         {
                             case 0:
                                 {
-                                    Recursive recursive = new Recursive(m, weight, value, n);
+                                    Bruteforce func = new Bruteforce(m, weight, value, n);
                                     Stopwatch stopwatch = Stopwatch.StartNew();
                                     Console.Write("Результат: ");
-                                    recursive.Start();
+                                    func.Start();
                                     stopwatch.Stop();
                                     long time = stopwatch.ElapsedTicks;
                                     Console.WriteLine("\nПрошло времени: " + time / 10000 + "ms");
@@ -99,10 +99,10 @@ namespace Knapsack
                                 }
                             case 1:
                                 {                                 
-                                    Greedy greedy = new Greedy(m, weight, value, n);
+                                    Greedy func = new Greedy(m, weight, value, n);
                                     Stopwatch stopwatch = Stopwatch.StartNew();
                                     Console.Write("Результат: ");
-                                    greedy.Start();
+                                    func.Start();
                                     stopwatch.Stop();
                                     long time = stopwatch.ElapsedTicks;
                                     Console.WriteLine("\nПрошло времени: " + time / 10000 + "ms");
@@ -110,10 +110,10 @@ namespace Knapsack
                                 }
                             case 2:
                                 {
-                                    Dynamic bruteforce = new Dynamic(m, weight, value, n);
+                                    Dynamic func = new Dynamic(m, weight, value, n);
                                     Stopwatch stopwatch = Stopwatch.StartNew();
                                     Console.Write("Результат: ");
-                                    bruteforce.Start();
+                                    func.Start();
                                     stopwatch.Stop();
                                     long time = stopwatch.ElapsedTicks;
                                     Console.WriteLine("\nПрошло времени: " + time/10000 + "ms");
